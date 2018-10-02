@@ -1,0 +1,19 @@
+      setTimeout(() => {
+          this.setState({
+              greeting: "hello again",
+              movies: [
+                  {
+                      title: "Matrix1",
+                      poster: "https://cdn.simple-cp.com/wysiwyg/simple.png"
+                  },
+                  {
+                      title: "Matrix2",
+                      poster: "https://cdn.simple-cp.com/wysiwyg/simple.png"
+                  },
+                  {
+                      title: "Matrix3",
+                      poster: "https://www.darefoods.com/resevoir_storage/brands/5K4YWk8noWke77JacB2jazxjEM44oAPXbMWr4FAX.png"
+                  }
+              ]
+          })
+      }, 3000)
